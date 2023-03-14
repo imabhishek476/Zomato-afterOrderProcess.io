@@ -1,4 +1,8 @@
-# Zomato-afterOrderProcess
+https://imabhishek476.github.io/Zomato-afterOrderProcess/
+Use three buttons step by step and check console -- use like a backend
+
+
+#### Zomato-afterOrderProcess
 Just use this steps to bulid the logics using Promises only
 Before Order:-
 1. Users add/remove Items into cart->
@@ -6,7 +10,7 @@ Before Order:-
 3. Apply Coupon -> Select address + Payment way
 4. Complete Payment and place Order
 
-After Order:-
+##After Order:-
 1. Order sent to Restaurant -> Waiting for Restaurant Order Acceptance
 2. Restaurant accepts -> Start preparing
 3. Restaurant rejects -> Return Payment
