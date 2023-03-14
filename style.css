@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Comic Sans MS';
 }
 .disclaimer-cont{
     background-color: red;
@@ -91,12 +92,13 @@
 }
 
 #driver-details{
+    background: black;
+    color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
     padding: 16px;
-    background-color: white;
 }
 .driver-photo,.call{
     width: 40px;
