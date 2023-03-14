@@ -10,7 +10,8 @@ Before Order:-
 3. Apply Coupon -> Select address + Payment way
 4. Complete Payment and place Order
 
-#After Order:-
+
+# After Order
 1. Order sent to Restaurant -> Waiting for Restaurant Order Acceptance
 2. Restaurant accepts -> Start preparing
 3. Restaurant rejects -> Return Payment
