@@ -94,6 +94,7 @@ function updateOrderStatus(){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             document.getElementById('currentStatus').innerText= isOrderDelivered ? 'Order Delivered Successfully' : 'Preparing Your Order';
+            document.getElementById('status-time').innerText= isOrderDelivered ? 'Arrived in 0 mins' : 'Arriving in 25 mins';
             resolve('Status Updated')
         },1500)
     })
