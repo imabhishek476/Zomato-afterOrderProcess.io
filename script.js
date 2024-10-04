@@ -153,6 +153,7 @@ function checkIfValetAssigned(){
                 document.getElementById('currentStatus').innerText='Order Delivered From Restaurant';
                 resolve('Updated Valet details');
                 clearTimeout(valetTimer);
+                clearInterval(valetTimer)
             }
         },2000);
     })
